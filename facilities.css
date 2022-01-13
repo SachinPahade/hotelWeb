@@ -1,0 +1,44 @@
+
+#header{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url('./image/hotel2.jpg');
+    width: 100%;
+    height: 760px;
+    /* height: 760px; */
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.facility_box img{
+    padding: 2rem 10% 0 10% ;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.facilities h1{
+    font-size: 1.9rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 4rem;
+    color: var(--blue);
+}
+.facilities p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 2rem;
+}
+.facility_box h1{
+
+    /* border: 2px solid red; */
+    margin: 0 0rem;
+    padding: 0 8%;
+    margin-top: -37px;
+    background: #fff
+}
+.facility_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
